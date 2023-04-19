@@ -1,0 +1,599 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap');
+@font-face {
+  font-family: Shabnam;
+  src: url('/assets/fonts/shabnam/Shabnam.eot');
+  src: url('/assets/fonts/shabnam/Shabnam.eot?#iefix') format('embedded-opentype'),
+      url('/assets/fonts/shabnam/Shabnam.woff2') format('woff2'),
+      url('/assets/fonts/shabnam/Shabnam.woff') format('woff'),
+      url('/assets/fonts/shabnam/Shabnam.ttf') format('truetype');
+      font-weight: normal;
+}
+  
+@font-face {
+  font-family: Shabnam;
+  src: url('/assets/fonts/shabnam/Shabnam-Bold.eot');
+  src: url('/assets/fonts/shabnam/Shabnam-Bold.eot?#iefix') format('embedded-opentype'),
+      url('/assets/fonts/shabnam/Shabnam-Bold.woff2') format('woff2'),
+      url('/assets/fonts/shabnam/Shabnam-Bold.woff') format('woff'),
+      url('/assets/fonts/shabnam/Shabnam-Bold.ttf') format('truetype');
+      font-weight: bold;
+}
+  
+@font-face {
+  font-family: Shabnam;
+  src: url('/assets/fonts/shabnam/Shabnam-Thin.eot');
+  src: url('/assets/fonts/shabnam/Shabnam-Thin.eot?#iefix') format('embedded-opentype'),
+      url('/assets/fonts/shabnam/Shabnam-Thin.woff2') format('woff2'),
+      url('/assets/fonts/shabnam/Shabnam-Thin.woff') format('woff'),
+      url('/assets/fonts/shabnam/Shabnam-Thin.ttf') format('truetype');
+      font-weight: 100;
+}
+  
+@font-face {
+  font-family: Shabnam;
+  src: url('/assets/fonts/shabnam/Shabnam-Light.eot');
+  src: url('/assets/fonts/shabnam/Shabnam-Light.eot?#iefix') format('embedded-opentype'),
+      url('/assets/fonts/shabnam/Shabnam-Light.woff2') format('woff2'),
+      url('/assets/fonts/shabnam/Shabnam-Light.woff') format('woff'),
+      url('/assets/fonts/shabnam/Shabnam-Light.ttf') format('truetype');
+      font-weight: 300;
+}
+  
+@font-face {
+  font-family: Shabnam;
+  src: url('/assets/fonts/shabnam/Shabnam-Medium.eot');
+  src: url('/assets/fonts/shabnam/Shabnam-Medium.eot?#iefix') format('embedded-opentype'),
+      url('/assets/fonts/shabnam/Shabnam-Medium.woff2') format('woff2'),
+      url('/assets/fonts/shabnam/Shabnam-Medium.woff') format('woff'),
+      url('/assets/fonts/shabnam/Shabnam-Medium.ttf') format('truetype');
+      font-weight: 500;
+}
+body {
+  font-family: 'Shabnam';
+}
+
+/*//////////////////////////////////////////////////////////////////
+[ login ]*/
+.limiter {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container-login100 {
+  width: 100%;  
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.wrap-login100 {
+  width: 500px;
+  background: none;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+
+/*------------------------------------------------------------------
+[ Form ]*/
+
+.login100-form {
+  width: 100%;
+}
+
+.login100-form-title {
+  display: block;
+  font-family: Raleway;
+  font-size: 30px;
+  color: #72253d;
+  line-height: 1.2;
+  text-align: left;
+}
+
+
+
+/*------------------------------------------------------------------
+[ Input ]*/
+
+.wrap-input100 {
+  width: 100%;
+  position: relative;
+  border-bottom: 2px solid #d9d9d9;
+}
+
+.label-input100 {
+  font-family: Raleway;
+  font-size: 17px;
+  color: #72253d;
+  line-height: 1.5;
+  padding-left: 7px;
+}
+
+.input100 {
+    display: block;
+    width: 100%;
+    background: 0 0;
+    font-family: Raleway;
+    font-size: 18px;
+    color: #333;
+    line-height: 2;
+    padding: 0 5px;
+}
+
+.textarea.input100{
+
+  min-height: 114px;
+    padding-top: 9px;
+    padding-bottom: 13px;
+}
+
+
+
+
+/*------------------------------------------------------------------
+[ Button ]*/
+.container-login100-form-btn {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.wrap-login100-form-btn {
+  width: 100%;
+  display: block;
+  position: relative;
+  z-index: 1;
+  border-radius: 3px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.login100-form-bgbtn {
+  position: absolute;
+  z-index: -1;
+  width: 300%;
+  height: 100%;
+  background: #72253d;
+  top: 0;
+  left: -100%;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.login100-form-btn {
+  font-family: Raleway;
+  font-size: 20px;
+  color: #fff;
+  line-height: 1.2;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  width: 100%;
+  height: 70px;
+}
+
+.wrap-login100-form-btn:hover .login100-form-bgbtn {
+  left: 0;
+}
+
+
+/*//////////////////////////////////////////////////////////////////
+[ Responsive ]*/
+
+@media only screen and (max-width: 720px)
+{
+  .wrap-login100 {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: -10px !important;
+  }
+  .login100-form-title{
+    font-size: 18px !important;
+    font-weight: 500;
+
+  }
+  .label-input100{
+    font-size:14px;
+  }
+  .container-login100 {
+    width: 100%;  
+    min-height: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.swiper-slide img {
+  display: block;
+  max-height: 278px;
+  object-fit: cover;
+}
+.fw-bold {
+  font-weight: bold;
+}
+.site-banner .title-one {
+  font-weight: bold;
+}
+img.flag {
+  border-radius: 50px;
+  width: 36px;
+}
+.footer-logo-site {
+  height: 140px;
+}
+.nav-logo-site {
+  height: 120px;
+}
+ul.navbar-nav {
+  justify-content: space-evenly;
+  border-radius: 8px;    
+}
+.navbar-light .navbar-nav .nav-link {
+    font-weight: bold;
+    color: white !important;
+}
+.navbar-light .navbar-nav .active > .nav-link {
+    color: #122738 !important;
+}
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+    color: rgba(0, 0, 0, 0.7) !important;
+}
+.fs-20 {
+  font-size: 20px;
+}
+.nav-first-box a.change-lang{
+  cursor: pointer;
+  color: unset;
+}
+.copyright {
+  border-top: 1px solid slategray;
+  color: slategray;
+}
+.btn {
+  border-radius: 8px
+}
+.redu-up-20 {
+  border-radius: 20px 20px 0px 0px;
+}
+.redu-20 {
+  border-radius: 20px;
+}
+.redu-up-10 {
+  border-radius: 10px 10px 0px 0px;
+}
+.redu-10 {
+  border-radius: 10px;
+}
+.bg-success-dark {
+  background-color: #00B04C !important;
+}
+.bg-success {
+  background-color: #19CE67 !important;
+}
+.bg-success-light {
+  background-color: #19CE67 !important;
+}
+.btn-success {
+  background-color: #19CE67 !important;
+  border-color: #19CE67 !important;
+}
+.text-darkness {
+  color: #122738 !important;
+}
+.bg-darkness {
+  background: #122738 !important;
+}
+.lorem-box-efss32323244 {
+  position: relative;
+  top: -60px;
+}
+.lorem-box-efss32323244 p {
+  font-size: 20px;
+  line-height: 38px;
+}
+.lorem-box-efss32323244 .logo-box {
+  height: 92px;
+}
+.shadow-c1 {
+  box-shadow: 0px 0px 16px 16px #27aa4547;
+}
+.lorem-box-efss32323245 .logo-box {
+  border: 2px solid #52565e;
+  border-radius: 16px 16px 0px 0px; 
+}
+.lorem-box-efss32323245 p {
+  font-weight: bold;
+}
+.navbar_top_x93432 {
+  z-index: 9;
+}
+.lorem-box-efss32323247 img.banner {
+  filter: brightness(50%);
+}
+.lorem-box-efss32323248 .rel-box {
+  position: relative;
+  top: -32px;
+}
+.mySwiperC455 .swiper-button-next , .mySwiperC455 .swiper-button-prev.swiper-button-disabled , .mySwiperC455 .swiper-button-prev {
+  top: 638px;
+}
+.mySwiperC455 .swiper-button-next {
+  left: 45% !important;
+}
+.mySwiperC455 .swiper-button-prev.swiper-button-disabled , .mySwiperC455 .swiper-button-prev {
+  right: 45% !important;
+}
+.swiper-button-prev.swiper-button-disabled , .swiper-button-next , .swiper-button-prev {
+  border: 1px solid lightslategray;
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 50px;
+}
+.swiper-button-next::after, .swiper-button-prev::after {
+  font-size: 20px !important;
+  color: lightslategray;
+}
+.hover_c1:hover img {
+  transition: 0.3s;
+  filter: brightness(75%);
+}
+.hover_c2:hover img {
+  transition: 0.3s;
+  transform: scale(0.90);
+}
+.hover_c3:hover div {
+  transition: 0.3s;
+  background-color: #f8f9faf2 !important;
+}
+.hover_c4 img {
+  transform: scale(0.90);
+}
+.hover_c4:hover img {
+  transition: 0.3s;
+  transform: scale(1);
+}
+.lorem-box-efss32323247 {
+  height: 640px;
+}
+.lorem-box-efss32323247 img {
+  max-height: 640px;
+}
+.text-justify {
+  text-align: justify;
+}
+.title-tree {
+  text-align: justify;
+  direction: rtl;
+  line-height: 52px;   
+}
+.site-banner .title-box {
+  position: relative;
+  top: -1560px;
+}
+.title-box {
+  position: relative;
+  top: -600px;
+}
+.site-banner {
+  height: 960px;
+}
+.site-banner .imageLinear , .site-banner img {
+  height: 960px;
+}
+.site-banner .imageLinear {
+  background: linear-gradient(#DFE2E400 , #122738);
+  position: relative;
+  top: -960px;
+  width: 100%;
+}
+
+.footer .box-header {
+  min-height: 140px;
+}
+.social-icon i {
+  width: 36px;
+  color: white;
+  border: 1px dotted;
+  height: 36px;
+  padding-top: 4px;
+  border-radius: 5px;
+  font-size: 24px;
+  transform: scale(0.9);
+}
+.social-icon i:hover {
+  transition: 0.3s;
+  color: antiquewhite;
+  transform: scale(1);
+}
+.ml-15 {
+  margin-left: 15%;
+}
+.site-banner p {
+  font-size: 24px;
+}
+.site-banner h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 28px;
+}
+.lorem-box-efss32323248 .rel-box .title {
+  height: 68px;
+  overflow: hidden;
+}
+.lorem-box-efss32323248 .rel-box .text {
+  height: 148px;
+  overflow: hidden;
+  margin-bottom: 12px;
+}
+.footer .box-header {
+  min-height: 140px;
+}
+.lorem-box-efss32323248 .swiper-slide img {
+  height: 200px;
+}
+:is(.lorem-box-efss32323244 , .lorem-box-efss32323245) p {
+  color: white;
+}
+.lorem-box-efss32323247 p {
+  text-align: justify;
+  line-height: 52px;
+}
+.max-height-c8 {
+  max-height: 680px;
+}
+.laravel-pagination {
+  direction: ltr;
+}
+.laravel-pagination svg {
+  width: 18px !important;
+}
+.laravel-pagination p.leading-5 , .laravel-pagination div.flex {
+  display: none !important;
+}
+@media (min-width: 992px) {
+  .text-lg-white {
+      color: #fff !important;
+  }
+  .navbar_top_x93432 {
+      position: absolute;
+  }
+  .site-banner .title-one {
+      font-size: 48px;
+      font-weight: bold;
+  }
+  .fs-lg-42 {
+      font-size: 42px !important;
+  }
+  .fs-lg-32 {
+      font-size: 32px !important;
+  }
+  .fs-lg-24 {
+      font-size: 24px !important;
+  }
+  .fs-lg-20 {
+      font-size: 20px !important;
+  }
+  .lorem-box-efss32323245 p {
+    font-size: 42px;
+  }
+  .lorem-box-efss32323247 p {
+      font-size: 24px;
+  }
+}
+@media (max-width: 640px) {
+  .footer .box-header {
+    min-height: unset;
+  }
+  .navbar {
+      padding-top: 0px;
+  }
+  .navbar-light .navbar-nav .active > .nav-link {
+      color: unset;
+  }
+  .navbar-light .navbar-nav .nav-link {
+      text-align: right;
+  }
+  .nav-first-box {
+      padding-top: 8px;
+  }
+  .navbar-light .navbar-toggler {
+      position: absolute;
+      top: -42px;
+      right: 0px;
+  }
+  .title-tree {
+      line-height: unset;
+  }
+  .lorem-box-efss32323247 {
+      height: 336px;
+  }
+  .lorem-box-efss32323247 .title-box {
+      top: -292px;
+  }
+  .lorem-box-efss32323247 img.banner {
+      height: 320px;
+  }
+  .nav-logo-site {
+      height: 48px;
+  }
+  .site-banner {
+      height: 300px;
+  }
+  .site-banner .imageLinear, .site-banner img {
+      height: 220px;
+  }
+  .site-banner .imageLinear {
+      top: -220px;
+  }
+  .site-banner .title-box {
+      top: -416px;
+  }
+  
+  .title-box {
+      top: -190px;
+  }
+  .title-one {
+      font-size: 24px;
+  }
+  .fs-sm-14{
+      font-size: 14px !important;
+  }
+  .fs-sm-12{
+      font-size: 12px !important;
+  }
+  .lorem-box-efss32323244 p {
+    font-size: 12px;
+  }
+  .lorem-box-efss32323247 p {
+      font-size: 12px;
+  }
+  .site-banner p {
+      font-size: 14px;
+  }
+  .site-banner h1 {
+      font-size: 24px;
+      margin-bottom: 24px;
+  }
+}
