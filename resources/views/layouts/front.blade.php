@@ -29,7 +29,9 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
         <link rel="stylesheet" type="text/css" href="{{url('assets/front/css/main.css')}}">
         <style>
-            
+            .kianparto-body {
+                min-height: 800px;
+            }
         </style>
         @yield ('styles')
         
@@ -38,7 +40,7 @@
         
         @include('layouts.front.nav')
         
-        <div class="{{app()->getLocale()=='fa' ? 'text-right' : '' }}">
+        <div class="kianparto-body {{app()->getLocale()=='fa' ? 'text-right' : '' }}">
             @yield ('body')
         </div>
 

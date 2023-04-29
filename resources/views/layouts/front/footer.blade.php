@@ -50,21 +50,14 @@
                 <div class="col-lg-4">
                     <div class="box-header"></div>
                     <div class="row">
-                        <div class="col">
-                            <p class="my-4 fw-bold">برخی از محصولات</p>
-                            @foreach ($links as $link)
-                                {{-- <p class="my-4 fw-bold">{{$link->col_name('title')}}</p> --}}
+                        @foreach ($links as $link)
+                            <div class="col-auto">
+                                <p class="my-4 fw-bold">{{$link->col_name('title')}}</p>
                                 @foreach ($link->children->take(4) as $child)
                                     <p class="my-1"><a class="fs-sm-12 text-white" href="#">{{$child->col_name('title')}}</a></p>
                                 @endforeach
-                            @endforeach
-                        </div>
-                        {{-- <div class="col">
-                            <p class="my-4 fw-bold">مواد شیمیایی</p>
-                            @foreach ($link->children->take(4) as $child)
-                                <p class="my-1"><a class="fs-sm-12 text-white" href="#">{{$child->col_name('title')}}</a></p>
-                            @endforeach
-                        </div> --}}
+                            </div>
+                        @endforeach
                     </div>
                 </div>
     

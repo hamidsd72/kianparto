@@ -25,7 +25,7 @@
                     <a class="nav-link" href="{{route('front.category.show', [app()->getLocale(), 0, 'محصولات'])}}">{{read_lang_word('صفحه-اصلی','products')}}</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{{route('front.category.show', [app()->getLocale(), 0, 'مواد شیمیایی'])}}">{{read_lang_word('صفحه-اصلی','chemicals')}}</a>
+                    <a class="nav-link" href="{{route('front.category.show', [app()->getLocale(), 78, 'مواد شیمیایی'])}}">{{read_lang_word('صفحه-اصلی','chemicals')}}</a>
                 </li>
                 <li class="nav-item {{\Request::route()->getName()=='front.blog.index'?'active':''}}">
                     <a class="nav-link" href="{{route('front.blog.index', [app()->getLocale(), 'article'])}}">{{read_lang_word('صفحه-اصلی','article')}}</a>
